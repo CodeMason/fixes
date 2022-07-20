@@ -1,0 +1,12 @@
+MacOS 12.4 M1
+
+When a steam game does not recognize the controller (in this case, Shadow Of Mordor), BUT the OS + Steam recognize it...
+
+- make sure the controller is setup within steam. It doesn't matter how, as long as it is enabled and button presses/etc are recognized.
+- make sure the controller is enabled for the game (by default, it should be)
+- In the specific case of "fancy" controllers (in this case the Xbox Elite Series 2 controller), copy the .plist file to <Game Folder APP>/Content/Resources/InputDevices (you will likely have to "show package contents" to get there)
+- disconnect the controller (ie: turn it off).
+- start the game
+- connect the controller
+
+Steam *could* fix their abandoned software, but hey, that's just a little too expensive for a billion dollar company I suppose. 
